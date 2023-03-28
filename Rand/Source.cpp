@@ -18,6 +18,7 @@ is a more complex form of matrix multiplication that allows the connection of te
 variables to interact with each other. there are equations out there that can
 be appoximated better when you can square the input or multiply a temporary variable
 with another temporary variable as can be seen in the InvSqrt function.
+
 1. I am thinking of making a model that basically stimulates the functionality of a computer.
 First computers and neural networks are vastly different. However, a neural network can
 reproduce many of the functions of a computer. A computer has a ssd, ram, cpu, gpu, cache,
@@ -27,7 +28,20 @@ compute local temporary variables. Attention can be used to use temporary variab
 interact with each other and create new temporary variables. A recurrent neural network
 allows for the use of temporary variables to remain persistent. There probably would be the
 need for attention addition. matrix addition, multiplication, and convolutional are all
-you need to create an effective and efficient model.
+you need to create an effective and efficient model. Relu is needed for the nonlinearity
+of algoritms like a for loop or if statement. The model would need to appoximate not only
+functions, but algoritms as well.
+
+2. When the model becomes more complex, it will be possible to give it the ability to use tools.
+For example, it will be possible to give it the ability to use dedicated activation functions so
+that it won't have to appoximate them. like to to bit addition, you would need a loop requiring
+multiple iterations of the recurrent neural network. this can be instead be done with a dedicated
+outside function. Like humans, this looping behavior is just thinking. As we build up this ability
+to think, we can offload more and more of "computation" thinking to outside functions to allow
+the model to focus on more complex tasks and allocation of resources. This is the same as how
+humans use tools. We use tools to do the things that we are not good at. We also use tools to
+speed up the things that we do a lot. We optimize what tool to make and use based on how much
+time we spend doing the task and how much effort it takes to do the task.
 */
 
 float InvSqrt(float number)
