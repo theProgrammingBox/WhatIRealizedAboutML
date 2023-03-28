@@ -18,6 +18,16 @@ is a more complex form of matrix multiplication that allows the connection of te
 variables to interact with each other. there are equations out there that can
 be appoximated better when you can square the input or multiply a temporary variable
 with another temporary variable as can be seen in the InvSqrt function.
+1. I am thinking of making a model that basically stimulates the functionality of a computer.
+First computers and neural networks are vastly different. However, a neural network can
+reproduce many of the functions of a computer. A computer has a ssd, ram, cpu, gpu, cache,
+and a motherboard. A massive matrix multiplication can be used to move data from the any of
+these components to any other component. A convolutional neural network can be used to
+compute local temporary variables. Attention can be used to use temporary variables to
+interact with each other and create new temporary variables. A recurrent neural network
+allows for the use of temporary variables to remain persistent. There probably would be the
+need for attention addition. matrix addition, multiplication, and convolutional are all
+you need to create an effective and efficient model.
 */
 
 float InvSqrt(float number)
