@@ -14,10 +14,10 @@ recurrent neural network, it is possible to calculate functions like the inverse
 given time and the proper temporary variables. In a way, this allows the model to run
 like a computer. Convolutional allows the connection of local temporary variables while
 matrix multiplication allows the connection of global temporary variables. Attention
-is a more complex form of matrix multiplication that allows the connection of local
-temporary variables to global temporary variables. there are equations out there that can
+is a more complex form of matrix multiplication that allows the connection of temporary
+variables to interact with each other. there are equations out there that can
 be appoximated better when you can square the input or multiply a temporary variable
-with another temporary variable.
+with another temporary variable as can be seen in the InvSqrt function.
 */
 
 float InvSqrt(float number)
