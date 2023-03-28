@@ -8,8 +8,9 @@ that machine learning is really just an set equation. Howewer, emergent behavior
 when you have a lot of equations that interact with each other. I have also realized
 that the depth of the model kind of determins the number of temporary variables that
 are available. It is important to not only have temporary variables, but also to
-have access to previous temporary variables. For models that loop like a recurrent
-neural network, it is possible to calculate functions like the inverse square root
+have access to previous temporary variables. resnets allow for this because for residual
+connections. Bias is also important as can be seen in InvSqrt. For models that loop like a
+recurrent neural network, it is possible to calculate functions like the inverse square root
 given time and the proper temporary variables. In a way, this allows the model to run
 like a computer. Convolutional allows the connection of local temporary variables while
 matrix multiplication allows the connection of global temporary variables. Attention
