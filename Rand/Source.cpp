@@ -33,15 +33,21 @@ of algoritms like a for loop or if statement. The model would need to appoximate
 functions, but algoritms as well.
 
 2. When the model becomes more complex, it will be possible to give it the ability to use tools.
-For example, it will be possible to give it the ability to use dedicated activation functions so
-that it won't have to appoximate them. like to to bit addition, you would need a loop requiring
+For example, it will be possible to give it the ability to use dedicated functions so
+that it won't have to appoximate them. like to do bit addition, you would need a loop requiring
 multiple iterations of the recurrent neural network. this can be instead be done with a dedicated
 outside function. Like humans, this looping behavior is just thinking. As we build up this ability
 to think, we can offload more and more of "computation" thinking to outside functions to allow
 the model to focus on more complex tasks and allocation of resources. This is the same as how
 humans use tools. We use tools to do the things that we are not good at. We also use tools to
 speed up the things that we do a lot. We optimize what tool to make and use based on how much
-time we spend doing the task and how much effort it takes to do the task.
+time we spend doing the task and how much effort it takes to do the task. The important thing
+that would allow this is a flexible output that can call out to outside functions. Chat gpt is a
+good example of this. It can code its own functions, call apis, and interact with the outside world.
+Although chat gpt is a very good initial step, it is both really big and slow. With a few iterations
+of an optimized model like an augmented recurrent neural network with multiple kinds of activation
+in the same layer, it will be possible to make a model that is much smaller and faster with possibly
+better results.
 */
 
 float InvSqrt(float number)
